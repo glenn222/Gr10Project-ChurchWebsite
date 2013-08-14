@@ -1,0 +1,68 @@
+body {
+	background-image:url('CrossWallpaper7.jpg');
+	font-family:Arial;
+	font-size:18;
+}
+
+h1{
+	color:#153E7E;
+	border-style:groove;
+	border-color:#566D7E;
+	width="75%";
+	background-color:#E9AB17;
+	font-weight:bold;
+}
+
+h2{
+	font-weight:bold;
+	color:#151B54;
+	border-style:groove;
+	width="50%";
+	border-color:#804000;
+	
+}
+
+h2{
+color:#FBB917;
+border-style:groove;
+border-color:#C36241;
+width="50%";
+background-color:#7E3117;
+}
+
+p{
+	color:#7D0541
+}
+
+table{
+	border-collapse:collapse;
+	
+}
+
+table, tr, td{
+	border: 1px solid black;
+}
+
+td{
+	padding:7px;
+}
+tr{
+	background-color:#C8BBBE;
+	color:#254117;
+	font-weight: bold
+}
+
+span.boldit{
+	font-weight=bold;
+	color:#7D053F;
+}
+
+input.dabutton{
+	background color:gold
+}
+
+textarea{
+	background color:#FFF8C6;
+	border-style:groove;
+	border-color:#737CA1;
+}

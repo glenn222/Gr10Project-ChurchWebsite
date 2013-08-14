@@ -1,0 +1,114 @@
+<html>
+<head>
+<title>St.Leonard's Parish</title>
+</head>
+
+<script>
+
+function prayer(){
+	var name;
+	name=prompt("What is your name?","")
+	output.value=output.value + "SURPRISE "+name+"!! A Prayer has appeared in the text area!\n"
+	output.value=output.value + "An Old Irish Blessing\n"
+	output.value=output.value +	name + ", May the road rise up to meet you.\n"
+	output.value=output.value +	name + ", May the wind always be at your back.\n"
+	output.value=output.value +	name + ", May the sun shine warm upon your face,\n"
+	output.value=output.value + "and rains fall soft upon your fields.\n"
+	output.value=output.value + "And until we meet again,\n"
+	output.value=output.value +	name + ", May God hold you in the palm of His hand.\n"
+	output.value=output.value +	"Amen.\n"
+}
+
+function cleararea(){
+output.value=""
+}
+</script>
+
+<link rel="stylesheet" type="text/css" href="Churchstyle.css"/>
+
+<center>
+<h1>St. Leonard's Parish</h1>
+</center>
+
+
+<marquee>Welcome to St.Leonard's Parish!</marquee>
+<body>
+<center>
+<img src="St.Leonard's.bmp">
+
+
+<p>187 Conestoga Drive</p>
+<p>Brampton, ON L6Z 3X8</p>
+<p>Phone: (905) 846-5385</p>
+<p>Fax: (905) 840-2361</p>
+
+</center>
+
+<u>
+<center>
+<h2>About Us</h2>			
+</center>
+</u>
+
+<center>
+<img src="StLeonard.jpg">
+</center>
+
+<p>Hello! Welcome to <span class="boldit">St.Leonard's Parish</span> in Brampton. We hope you have a great day! Our patron saint, St.Leonard, or also called Leonard of Noblac, was born near the end of the fifth century, sometime during 496. St.Leonard made a decision to devote his life to God. King Clovis had allowed him that if a worthy prisoner was converted to Christianity, he had the right to liberate prisoners to He was born in a place called Gaul, which today would be called France. He was a Frankish noble in the court of Clovis I, the King of Franks at that time. St. Leonard died in 559, when he was 63 years old. He was venerated into the Roman Catholic churches and Anglican churches. His feast day is on November 6th.</p>
+
+<u>
+<center>
+<h2>Mass Times</h2>
+</u>
+
+
+<table border=3>
+<tr><td><b>Day</b></td>    <td><b>Times</b></td>
+<tr><td>Monday</td>		   <td>None</td>
+<tr><td>Tuesday</td>	   <td>None</td>
+<tr><td>Wednesday</td>	   <td>None</td>
+<tr><td>Thursday</td>	   <td>None</td>
+<tr><td>Friday</td>		   <td>None</td>
+<tr><td><span class="boldit">Saturday</span></td>	   <td><span class="boldit">5:00pm</span></td>
+<tr><td><span class="boldit">Sunday</span></td>	 	   <td><span class="boldit">9:00am, 10:30am, 12:00pm</span></td>
+</table>
+
+</center>
+
+<u>
+<center>
+<h2>Link to...</h2>
+</center>
+</u>
+
+<center>
+<ul>
+<li><a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&q=187+Conestoga+Dr,+Brampton,+Peel+Regional+Municipality,+Ontario,+Canada&sll=37.0625,-95.677068&sspn=32.059939,56.337891&ie=UTF8&cd=7&geocode=FYQmmwIdRX0--w&split=0&hq=&hnear=187+Conestoga+Dr,+Brampton,+Peel+Regional+Municipality,+Ontario,+Canada&ll=43.723909,-79.790783&spn=0.007133,0.013754&z=16&iwloc=A&layer=c&cbll=43.722393,-79.790835&panoid=1ZAJDVnY9Af9aI2KvCWLgQ&cbp=12,78.16,,0,17.62">Church on Google Maps</a></li>
+<li><a href="http://www.vatican.va/">The Vatican</a></li>
+<li><a href="http://www.archtoronto.org/">The Archdiocese of Toronto</a></li>
+<li><a href="http://www.ocytoronto.org/">The Office of Catholic Youth (OCY)</a></li>
+</ul>
+</center>
+
+<center>
+<input class="dabutton" type="submit" value="Click to find out!" onclick="prayer()"/><input class="dabutton" type="submit" value="Clear Text Area" onclick="cleararea()"/>
+</center>
+
+<center>
+<p><textarea rows=25 cols=60 name="output" id="output"> </textarea></p>
+</center>
+
+<center>
+<h2>Flash about Saint Leonard</h2>
+</center>
+
+<center>
+<object width="550" height="400">
+<param name="movie" value="St.Leonard.swf">
+<embed src="St.Leonard.swf" width="550" height="400">
+</embed>
+</object>
+</center>
+
+
+</body>
